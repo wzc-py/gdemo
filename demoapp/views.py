@@ -8,3 +8,5 @@ def index(request):
 def login(request):
     print('成功')
     return HttpResponse('ok')
+
+def login_logic(request):
