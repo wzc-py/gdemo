@@ -10,3 +10,5 @@ def login(request):
     return HttpResponse('ok')
 
 def login_logic(request):
+    print('登录逻辑ok')
+    return HttpResponse('ok')
