@@ -4,3 +4,7 @@ from django.shortcuts import render,HttpResponse
 def index(request):
     print('第一个视图')
     return HttpResponse('ok')
+
+def login(request):
+    print('成功')
+    return HttpResponse('ok')
