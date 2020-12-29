@@ -1,0 +1,6 @@
+Django==2.0.6
+mysqlclient==1.4.6
+Pillow==7.1.2
+pytz==2020.1
+redis==3.5.3
+redis-py-cluster==2.1.0
